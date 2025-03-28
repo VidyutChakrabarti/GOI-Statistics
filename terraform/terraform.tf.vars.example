@@ -1,2 +1,3 @@
-s3_bucket_name = ""
-rds_password   = ""
+aws_access_key = "your-real-access-key"
+aws_secret_key = "your-real-secret-key"
+rds_password   = "YourStrongPassword123"
