@@ -15,11 +15,21 @@ resource "aws_internet_gateway" "igw" {
 
 resource "aws_subnet" "public_subnet" {
   vpc_id                  = aws_vpc.main_vpc.id
-  cidr_block              = var.public_subnet_cidr
-  availability_zone       = var.availability_zone
+  cidr_block              = var.public_subnet_cidr         
+  availability_zone       = var.availability_zone         
   map_public_ip_on_launch = true
   tags = {
     Name = "public_subnet"
+  }
+}
+
+resource "aws_subnet" "public_subnet_2" {
+  vpc_id                  = aws_vpc.main_vpc.id
+  cidr_block              = var.public_subnet_cidr_2       
+  availability_zone       = var.availability_zone_2        
+  map_public_ip_on_launch = true
+  tags = {
+    Name = "public_subnet_2"
   }
 }
 
@@ -32,7 +42,12 @@ resource "aws_route_table" "public_rt" {
   }
 }
 
-resource "aws_route_table_association" "public_rta" {
+resource "aws_route_table_association" "public_rta_1" {
   subnet_id      = aws_subnet.public_subnet.id
+  route_table_id = aws_route_table.public_rt.id
+}
+
+resource "aws_route_table_association" "public_rta_2" {
+  subnet_id      = aws_subnet.public_subnet_2.id
   route_table_id = aws_route_table.public_rt.id
 }

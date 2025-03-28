@@ -1,8 +1,0 @@
-aws_region          = "us-east-1"
-s3_bucket_name      = "vidyut-household-csv-bucket-123"
-rds_instance_class  = "db.t2.micro"
-rds_db_name         = "household_db"
-vpc_cidr            = "10.0.0.0/16"
-public_subnet_cidr  = "10.0.1.0/24"
-availability_zone   = "us-east-1a"
-allowed_ip          = "0.0.0.0/0"
