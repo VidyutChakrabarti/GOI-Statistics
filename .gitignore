@@ -11,3 +11,4 @@ terraform/main/terraform.tfstate.backup
 terraform/main/terraform.tfstate.d
 terraform/bootstrap/.terraform.lock.hcl
 terraform/main/.terraform.lock.hcl
+terraform/main/lambda_function.zip
