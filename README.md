@@ -11,4 +11,10 @@ Deriving inferences from datasets sourced from the national data archive.
    - [Dataset Link](https://esankhyiki.mospi.gov.in/macroindicators?product=cpi)  
 
 
-Cleaned datasets can be accessed at: 
+Cleaned datasets can be accessed at:
+
+### Pipeline overview:
+![pipeline diagram](assets/sysdig.png)
+
+### Our final database schema looks like this: 
+![Schema diagram](assets/psqlschema.png)
