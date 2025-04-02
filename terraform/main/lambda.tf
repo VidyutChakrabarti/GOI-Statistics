@@ -11,7 +11,7 @@ resource "aws_lambda_function" "csv_to_rds" {
     variables = {
       DB_HOST    = aws_db_instance.rds_instance.endpoint,
       DB_NAME    = var.rds_db_name,
-      DB_USER    = "dbadmin",  # Avoid reserved "admin"
+      DB_USER    = "dbadmin",  
       DB_PASSWORD= var.rds_password,
       S3_BUCKET  = var.s3_bucket_name
     }
