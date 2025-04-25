@@ -7,6 +7,8 @@ resource "aws_lambda_function" "csv_to_rds" {
   timeout       = 600 
   memory_size   = 512
 
+  
+  
   environment {
     variables = {
       DB_HOST    = aws_db_instance.rds_instance.endpoint,
@@ -17,6 +19,8 @@ resource "aws_lambda_function" "csv_to_rds" {
     }
   }
 
+  
+  
   tags = {
     Name = "CSVtoRDSLambda"
   }

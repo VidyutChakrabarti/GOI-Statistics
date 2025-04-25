@@ -2,7 +2,6 @@ import os
 import boto3
 import csv
 import psycopg2
-
 def safe_float(value):
     try:
         if value is None or str(value).strip() == "" or str(value).strip().lower() == "nan":

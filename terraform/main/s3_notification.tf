@@ -6,6 +6,8 @@ resource "aws_lambda_permission" "allow_s3" {
   source_arn    = aws_s3_bucket.csv_bucket.arn
 }
 
+
+
 resource "aws_s3_bucket_notification" "s3_notify" {
   bucket = aws_s3_bucket.csv_bucket.id
 

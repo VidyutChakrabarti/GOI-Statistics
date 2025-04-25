@@ -4,7 +4,8 @@ Deriving inferences from datasets sourced from the national data archive.
 ## Current Datasets   
 
 1. **Household Consumption Dataset**  
-   - [Dataset Link](https://microdata.gov.in/nada43/index.php/catalog/CEXP)  
+   - [Dataset Link](https://microdata.gov.in/nada43/index.php/catalog/CEXP)
+   - We have taken 2023-24 data for our analysis.  
    - Can be accessed through [Nesstar Publisher](https://www.ihsn.org/software/ddi-metadata-editor)  
 
 2. **Consumer Price Index and Inflation Data**  
@@ -14,6 +15,7 @@ Deriving inferences from datasets sourced from the national data archive.
 Cleaned datasets cannot be made public due to license agreements.<br/><br/>
 You can access the cleaning script from here: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1K5T8ZZ_sY3dv31pMmmQPrZLA40inmn_P?usp=sharing)
 
+Youtube video: [Link](https://www.youtube.com/watch?v=qLz7aWlV5A0)
 
 ### Pipeline overview:
 ![pipeline diagram](assets/sysdig.png)
@@ -45,4 +47,5 @@ terraform apply -auto-approve
 
 ### PowerBI dashboard: 
 ![powerbi dashboard](assets/vis.png)
+
 
