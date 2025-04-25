@@ -1,7 +1,7 @@
 # GOIStats  
 Deriving inferences from datasets sourced from the national data archive.  
 
-## Current Datasets  
+## Current Datasets   
 
 1. **Household Consumption Dataset**  
    - [Dataset Link](https://microdata.gov.in/nada43/index.php/catalog/CEXP)  
