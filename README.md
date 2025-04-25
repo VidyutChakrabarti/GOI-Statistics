@@ -40,6 +40,7 @@ terraform plan
 ```bash
 terraform apply -auto-approve
 ```
+
 **Note: Additional charges may apply if large datasets are transferred within the vpc using lambda, we avoided using AWS Glue due to cost constraints.**
 
 ### PowerBI dashboard: 
