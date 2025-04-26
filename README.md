@@ -4,7 +4,7 @@ Deriving inferences from datasets sourced from the national data archive.
 ## Current Datasets   
 
 1. **Household Consumption Dataset**  
-   - [Dataset Link](https://microdata.gov.in/nada43/index.php/catalog/CEXP)
+   - [Dataset Link](https://microdata.gov.in/NADA/index.php/catalog/237)
    - We have taken 2023-24 data for our analysis.  
    - Can be accessed through [Nesstar Publisher](https://www.ihsn.org/software/ddi-metadata-editor)  
 
