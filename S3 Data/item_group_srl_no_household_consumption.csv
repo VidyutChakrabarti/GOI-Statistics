@@ -1,0 +1,41 @@
+Value,Label
+1,"Cereals & cereal products (includes muri, chira, maida, suji, noodles, bread (bakery), barley, cereal substitutes, etc.)"
+2,"Pulses & pulse products (includes soybean, gram products, besan, sattu, etc.)"
+3,Milk
+4,"Milk products (includes milk condensed/powder, baby food, ghee, butter, ice-cream, etc.)"
+5,Edible oil and vanaspati
+6,"Vegetables (including garlic, ginger)"
+7,"Fruits & nuts (includes mango, banana, coconut, dates, kishmish, monacca, other dry fruits, etc.)"
+8,"Egg, fish & meat"
+9,"Sugar (includes gur, candy (misri), honey, etc.)"
+10,"Salt & spices (includes dry chillies, curry powder, oilseeds, etc.)"
+11,"Other food items (includes beverages such as tea, coffee, fruit juice and processed food such as biscuits, cake, pickles, sauce, cooked meals, etc.)"
+12,"Pan, tobacco & intoxicants"
+13,Fuel & light
+14,"Entertainment (includes cinema, picnic, sports, club fees, video cassettes, cable charges, etc.)"
+15,"Personal care and effects (includes spectacles, torch, umbrella, lighter, etc.)"
+16,"Toilet articles (includes toothpaste, hair oil, shaving blades, etc.)"
+17,"Sundry articles (includes electric bulb, tubelight, glassware, bucket, washing soap, agarbati, insecticide, etc.)"
+18,"Consumer services excluding conveyance (includes domestic servant, tailoring, grinding charges, telephone, legal expenses, pet animals, etc.)"
+19,"Conveyance (includes porter charges, diesel, petrol, school bus/van, etc.)"
+20,Rent/ house rent
+21,"Consumer taxes and cesses (includes water charges, etc.)"
+22,Medical expenses (non-institutional)
+23,Sub-total (items 1 to 22)
+24,Medical (institutional)
+25,"Tuition fees & other fees (includes private tutor, school/college fees, etc.)"
+26,"School books & other educational articles (includes newspaper, library charges, stationery, internet charges, etc.)"
+27,Clothing and bedding
+28,Footwear
+29,"Furniture and fixtures (includes bedstead, almirah, suitcase, carpet, paintings, etc.)"
+30,"Crockery & utensils (includes stainless steel utensils, casseroles, thermos, etc.)"
+31,"Cooking and household appliances (includes electric fan, air conditioners, sewing machine, washing machine, pressure cooker, refrigerator, heater, toaster, etc.)"
+32,"Goods for recreation (includes TV, radio, tape recorder, musical instruments, etc.)"
+33,Jewellery & ornaments
+34,"Personal transport equipment (includes bicycle, scooter, car, tyres & tubes, etc.)"
+35,"Therapeutic appliances (includes glass eye, hearing aids, orthopaedic equipment, etc.)"
+36,"Other personal goods (includes clock, watch, PC, telephone set, mobile handset, etc.)"
+37,"Repair and maintenance (of residential buildings, bathroom equipment, etc.)"
+38,Sub-total (items 24 to 37)
+39,Average monthly expenditure for items 24 to 37 [item 38 × (30÷365)]
+40,Monthly household consumer expenditure (item 23 + item 39)

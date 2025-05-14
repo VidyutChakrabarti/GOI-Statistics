@@ -11,6 +11,8 @@ Deriving inferences from datasets sourced from the national data archive.
 2. **Consumer Price Index and Inflation Data**  
    - [Dataset Link](https://esankhyiki.mospi.gov.in/macroindicators?product=cpi)  
 
+***To get the cleaned dataset:*** Download the S3-Data and explore it.
+
 <br/>
 
 You can access the cleaning script from here: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1K5T8ZZ_sY3dv31pMmmQPrZLA40inmn_P?usp=sharing)
