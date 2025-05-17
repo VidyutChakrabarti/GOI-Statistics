@@ -1,5 +1,7 @@
-# GOIStats  
+## Study on Household Consumption and Inflation data
 Deriving inferences from datasets sourced from the national data archive.  
+### Repository Structure
+![repo structure diagram](assets/repostructure.png)
 
 ## Current Datasets   
 
