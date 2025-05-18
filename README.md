@@ -47,9 +47,12 @@ terraform plan
 terraform apply -auto-approve
 ```
 
+- Upload the psycopg2-layer.zip as a layer in the Lambda function, this packaged layer has been prepared in AWS-Linux OS. (using a zipped package from Windows gives an error.)
+
 **Note: Additional charges may apply if large datasets are transferred within the vpc using lambda, we avoided using AWS Glue due to cost constraints.**
 
 ### PowerBI dashboard: 
 ![powerbi dashboard](assets/vis.png)
+
 
 
