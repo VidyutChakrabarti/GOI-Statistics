@@ -1,0 +1,11 @@
+aws_access_key=
+aws_secret_key=
+rds_password=
+aws_region=
+s3_bucket_name=
+rds_instance_class="db.t2.micro"
+rds_db_name=
+vpc_cidr=
+public_subnet_cidr=
+availability_zone=
+allowed_ip=
